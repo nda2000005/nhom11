@@ -1,6 +1,6 @@
 <?php
 
-require_once 'C:/xampp/htdocs/mnopl/app/models/DashboardModel.php';
+require_once '/xampp/htdocs/mnopl/app/models/DashboardModel.php';
 
 class DashboardController {
     private $model;
@@ -51,7 +51,7 @@ class DashboardController {
             ]);
             return; 
         }
-        require_once 'C:/xampp/htdocs/mnopl/app/views/dashboard.php';
+        require_once '/xampp/htdocs/mnopl/app/views/dashboard.php';
     }
 }
 
