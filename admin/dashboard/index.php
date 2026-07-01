@@ -1,6 +1,6 @@
 <?php
 
-define('ROOT_PATH', 'C:/xampp/htdocs/mnopl/');
+define('ROOT_PATH', '/xampp/htdocs/mnopl/');
 
 if (file_exists(ROOT_PATH . 'config/db.php')) {
     require_once ROOT_PATH . 'config/db.php'; 
